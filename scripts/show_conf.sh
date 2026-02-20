@@ -20,6 +20,7 @@ select PROFILE in "${profiles[@]}"; do
     CONF_FILE="$CLIENTS_DIR/$PROFILE.conf"
 
     echo ""
+    echo "https://www.wireguard.com/install/"
     echo "================ CONFIG =================="
     echo ""
     cat "$CONF_FILE"
